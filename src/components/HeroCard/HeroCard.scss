@@ -1,0 +1,30 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(184, 50, 50);
+  background: -moz-linear-gradient(0deg, rgba(184, 50, 50, 1) 0%, rgba(133, 96, 17, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(184, 50, 50, 1) 0%, rgba(133, 96, 17, 1) 100%);
+  background: linear-gradient(0deg, rgba(184, 50, 50, 1) 0%, rgba(133, 96, 17, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b83232",endColorstr="#856011",GradientType=1);
+  border-radius: 10px;
+  max-height: auto;
+  max-width: 400px;
+  -webkit-box-shadow: 0px 0px 66px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 66px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 66px -14px rgba(0, 0, 0, 0.75);
+}
+
+#card__img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  padding: 0;  
+}
+.card__body {
+  padding: 10px;
+}
+#card__title {
+  color: white;
+  text-align: center;
+}
